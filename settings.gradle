@@ -1,0 +1,2 @@
+include ':MultiActivity', ':lifecycleactivity'
+rootProject.name='lablesson2'
