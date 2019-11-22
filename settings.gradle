@@ -1,2 +1,2 @@
-include ':MultiActivity', ':lifecycleactivity'
+include ':MultiActivity', ':lifecycleactivity', ':intentfilter', ':IntentFilter'
 rootProject.name='lablesson2'
