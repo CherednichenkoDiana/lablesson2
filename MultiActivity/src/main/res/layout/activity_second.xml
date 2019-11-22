@@ -15,7 +15,8 @@
         android:foreground="@color/Fon2"
         android:layout_weight="1"
         android:textColor="@color/Text"
-        android:text="<-- Return" />
+        android:onClick="onClickNewActivity"
+        android:text="RETURN"  />
 
     <LinearLayout
         android:id="@+id/linearLayout"

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,7 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onClickNewActivity(View view) {
+
+        final EditText Text = findViewById(R.id.text);
+        String text = Text.getText().toString();
+
         Intent intent = new Intent(this, SecondActivity.class);
+        intent.putExtra("text", text);
         startActivity(intent);
     }
 
