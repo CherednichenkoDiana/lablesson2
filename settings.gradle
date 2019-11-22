@@ -1,2 +1,2 @@
-include ':MultiActivity', ':lifecycleactivity', ':intentfilter', ':IntentFilter', ':toastapp'
+include ':MultiActivity', ':lifecycleactivity', ':intentfilter', ':IntentFilter', ':toastapp', ':notificationapp', ':dialog'
 rootProject.name='lablesson2'
